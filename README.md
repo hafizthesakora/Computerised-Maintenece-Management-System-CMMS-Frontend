@@ -1,8 +1,7 @@
 # MaintenancePro
 
-### A Computerized Maintenance Management System CMMS
+### A Computerized Maintenance Management System (CMMS) built by Hafiz Toyyib.
 
-### https://maintenancepro.netlify.app/
 
 A real production app for a real client to test upon. More features will be added as production continues and feedbacks are received from clients.
 
@@ -27,27 +26,28 @@ This is an app for property managers, maintenance managers, facility managers/co
 
 ### Quick Overview of Tech/Stack
 
-This is a full-stack application completely built from scratch by 3 of us, as a final project for our graduation from Full-stack WebDev Bootcamp, Lighthouse Labs Toronto..
+This is a full-stack application completely built from scratch by Ujjawal, as a final project for our graduation from Full-stack WebDev Bootcamp. As part of my internship project in Eni Ghana Exploration and Production, i reached out to him and i modified the code to suit my REST API and made some changes as well such as 
+When a workorder reached deadline, it should prompt the technician and the Planner, also for the technician to also raise a workorder notification instead of it being restricted to the Planner.
 
 This repo is the Front-end app repo.
 
-Back-end is supplied by https://github.com/ujjawalsidhpura/MaintenancePro-API that is deployed on Heroku. API repo supply with endpoints that maintenancePro will use to communicate/update database.Test Production version of this app is deployed on Netlify via CircleCI continuous integration method.
+Back-end is supplied by Computerised Maintenance Management System backend in my account. 
 
 ### Highlights
 
-| !["Admin Dashboard"](https://github.com/ujjawalsidhpura/MaintenancePro/blob/main/docs/admin.gif?raw=true) |
+| !["Admin Dashboard"](https://github.com/hafizthesakora/Computerised-Maintenece-Management-System-CMMS-Frontend/blob/main/docs/admin.gif?raw=true) |
 | :-------------------------------------------------------------------------------------------------------: |
 |                                             _Admin Dashboard_                                             |
 
-| !["Technician Dashboard"](https://github.com/ujjawalsidhpura/MaintenancePro/blob/main/docs/technician.gif?raw=true) |
+| !["Technician Dashboard"](https://github.com/hafizthesakora/Computerised-Maintenece-Management-System-CMMS-Frontend/blob/main/docs/technician.gif?raw=true) |
 | :-----------------------------------------------------------------------------------------------------------------: |
 |                                               _Technician Dashboard_                                                |
 
-| !["Email sent to Technician on workorder submission"](https://github.com/ujjawalsidhpura/MaintenancePro/blob/main/docs/tech_email.png?raw=true) |
+| !["Email sent to Technician on workorder submission"](https://github.com/hafizthesakora/Computerised-Maintenece-Management-System-CMMS-Frontend/blob/main/docs/tech_email.png?raw=true) |
 | :---------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                               _Email sent to Technician on workorder submission_                                                |
 
-| !["Database"](https://github.com/ujjawalsidhpura/MaintenancePro/blob/main/docs/db_Structure.png?raw=true) |
+| !["Database"](https://github.com/hafizthesakora/Computerised-Maintenece-Management-System-CMMS-Frontend/blob/main/docs/db_Structure.png?raw=true) |
 | :-------------------------------------------------------------------------------------------------------: |
 |                                     _Non-Relational MongoDB Database_                                     |
 
@@ -55,9 +55,6 @@ Back-end is supplied by https://github.com/ujjawalsidhpura/MaintenancePro-API th
 
 - ESlint (Static)
 - Manual Testing
-- Jest
-- StoryBook (Components)
-- Cypress (End-to-End)
 
 ### Dependencies / Platforms used
 
@@ -70,13 +67,10 @@ FrontEnd
 - html-to-image
 - recharts
 - sockets.io
-- Netlify
-- CircleCI
 
 BackEnd
 
 - MongoDb
-- Heroku
 - Express
 - Morgan
 - Nodemon
